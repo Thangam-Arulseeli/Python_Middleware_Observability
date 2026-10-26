@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+
+### This prevents local configuration and generated files from being accidentally committed.
+
+### The .env.example file should generally be committed because it documents the expected configuration without containing secrets. 
+
